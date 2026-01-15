@@ -1,1 +1,150 @@
 
+print('hello')
+
+# Q. Create two comments: First comment: my first code, Second comment: this will print hello world
+
+
+#my first code 
+# this will print hello world
+
+
+ print('hello world')
+
+
+# Q. In your print statement, print a single value 20.
+
+
+ print(20)
+
+
+# Q. In a print statement, print two values 20 and 40 using a comma separator.
+
+ print(20,40)
+
+
+# Q. Create a variable named number with the value 30 and print it.
+
+ number =30
+ print(number)
+
+
+# Q. Create two variables num1 and num2, assign values to them, and print both in a single print statement.
+
+ num1=10
+ num2=20
+ print(num1,num2)
+
+
+# Q. Create the same variable name student_count twice with different values and check which value gets printed.
+
+ student_count = 30
+ student_count = 40
+
+ print(student_count)
+
+
+# In[15]:
+
+
+ Var = 20
+ print(Var)
+
+
+# Q. Try printing a word without using quotes and observe the error.
+
+print(printing a word without using quotes)
+
+
+# Q.Create a variable with a number and try printing text and the variable together in one print statement.
+
+
+#  printing text and the variable together in one print statement.
+
+ Var1 = 30
+ print('Variable 1 =', Var1)
+
+
+# In[23]:
+
+
+ print(12)
+
+
+# In[25]:
+
+
+ A =30
+ B=input('Please enter your number:')
+ print(A,B)
+
+
+# In[27]:
+
+
+ num1=input('Enter your first number')
+ num2=input('Enter your second number')
+ print(num1, num2)
+
+
+# In[28]:
+
+
+ num1=input('Enter first number')
+ num1=input('Enter second number')
+ print(num1,num1)
+
+
+# In[30]:
+
+
+age = 30
+
+print(age)
+print(type(age))
+
+marks=90.61
+print('your percentage=', marks)
+print(type(marks))
+
+
+# In[31]:
+
+
+ name ='Monali'
+ password = 'mypassword'
+
+ print(name, password, type(name), type(password))
+
+
+# In[32]:
+
+
+ data =True
+ print(data, type(data))
+
+ da1 = False
+ print(da1)
+ print(type(da1))
+
+
+# In[33]:
+
+
+ Name = ['Moanli', 'Rahul', 'Priyansh', 'Anaya']
+ print(Name)
+ print(type(Name))
+
+
+# In[35]:
+
+
+ Marks = [20,40,59,32,54,78,98,65,79,97]
+ print(Marks, type(Marks))
+
+ Name = ('Moanli', 'Rahul', 'Priyansh', 'Anaya', 'Arjun')
+ print(Name, type(Name))
+
+
+
+
+
