@@ -1,0 +1,263 @@
+======================================================================================Questions on if Statement====================================================================================================
+
+
+# Write a program to check if a number is greater than 50.
+# Take input from user
+num = int(input("Enter a number: "))
+
+# Check condition
+if num > 50:
+    print(num, "is greater than 50")
+else:
+    print(num, "is not greater than 50")
+
+
+# Write a program to check if a student has passed when marks are 40 or more.
+marks = int(input("Enter student's marks: "))
+
+# Check condition
+if marks >= 40:
+    print("Student has passed ✅")
+else:
+    print("Student has failed ❌")
+
+
+# Write a program to check if a user has more than ₹10,000 balance and display a message.
+
+balance = float(input("Enter your account balance: ₹ "))
+
+if balance > 10000:
+    print("✅ Your balance is more than ₹10,000, your balance is:", balance)
+else:
+    print("⚠️ Your balance is ₹10,000 or less, your balance is:", balance)
+
+
+
+# Write a program to check if a number is divisible by 5.
+
+Number = int(input('Enter your number:'))
+
+if Number%5 == 0:
+    print(Number, 'is divided by 5')
+
+else:
+    print(Number, 'is not divided by 5')
+
+
+# Write a program to check if today is a working day (assume input is day name).
+
+
+day = input("Enter the day name: ").strip().lower() #- .strip().lower() cleans up the input (removes spaces and makes it lowercase).
+
+
+# Define working days
+working_days = ["monday", "tuesday", "wednesday", "thursday", "friday"]
+
+if day in working_days:
+    print(" Today is a working day.")
+elif day in ["saturday", "sunday"]:
+    print(" Today is a weekend, not a working day.")
+else:
+    print(" Invalid day entered. Please enter a valid day name.")
+
+
+
+
+==========================================================================================Questions on if–else Statement========================================================================================
+
+
+
+
+# Write a program to check whether a number is even or odd.
+
+Number = int(input('Enter your number:'))
+
+if Number%2 == 0:
+    print(Number, 'is even number')
+
+else:
+    print(Number, 'is odd number')
+
+
+
+# Write a program to check whether a person is eligible to vote or not.
+
+age = int(input('Enter your age:'))
+
+if age>=18:
+    print('You are eligible to vote')
+
+else:
+    print('You are not eligible to vote')
+
+
+
+# Write a program to check whether a number is positive or negative.
+
+
+num = int(input('Enter your number:'))
+
+if num>=0:
+    print(num, 'is Positive Number')
+
+else:
+    print(num, 'is Negative Number')
+
+
+# Write a program to check whether a student has passed or failed.
+
+marks = int(input('Enter your marks:'))
+
+if marks>=40:
+    print('Congratulations you are passed...')
+
+else:
+    print('Sorry, you are failed!. Best luck for next time ')
+
+
+
+# Write a program to check whether a user can login based on password match.
+
+password = input('Enter your password:')
+if password=='pass1234':
+    print('Login into system')
+
+else:
+    print ('Invalid password')
+
+
+# Write a program to check whether a number is greater than 100 or not.
+
+num = int(input('Enter your number:'))
+
+if num>100:
+    print(num, 'is greater than 100')
+    
+elif num == 100:
+    print('Number is 100')
+
+else:
+    print(num, 'less than 100')
+
+
+# Take the number of products available in stock.
+#  If quantity is greater than 0, print In Stock, else print Out of Stock.
+
+quantity = int(input("Enter the number of products in stock: "))
+
+if quantity > 0:
+    print("✅ In Stock")
+else:
+    print("⚠️ Out of Stock")
+
+# Take internet status as input (1 for active, 0 for inactive).
+#  If status is 1, print Internet Active, else print Internet Inactive.
+
+
+status = int(input("Enter internet status (1 for active, 0 for inactive): "))
+
+if status == 1:
+    print("✅ Internet Active")
+elif status == 0:
+    print("⚠️ Internet Inactive")
+else:
+    print("❌ Invalid input. Please enter 1 or 0.")
+
+
+========================================================================================Questions on if–elif Statement==========================================================================================
+
+
+# Write a program to print grade based on marks
+#  (90+ = A, 75–89 = B, 50–74 = C, below 50 = Fail).
+
+marks = int(input("Enter your marks: "))
+
+if marks >= 90:
+    print("🎓 Grade: A")
+elif marks >= 75:
+    print("📘 Grade: B")
+elif marks >= 50:
+    print("📗 Grade: C")
+else:
+    print("❌ Grade: Fail")
+
+
+
+# Write a program to display day name based on day number (1–7).
+
+day_number = int(input("Enter day number (1–7): "))
+
+if day_number == 1:
+    print("Day: Monday")
+elif day_number == 2:
+    print("Day: Tuesday")
+elif day_number == 3:
+    print("Day: Wednesday")
+elif day_number == 4:
+    print("Day: Thursday")
+elif day_number == 5:
+    print("Day: Friday")
+elif day_number == 6:
+    print("Day: Saturday")
+elif day_number == 7:
+    print("Day: Sunday")
+else:
+    print("⚠️ Invalid input. Please enter a number between 1 and 7.")
+
+
+
+# Write a program to check traffic signal action (Red, Yellow, Green).
+
+signal = input("Enter traffic signal color (Red/Yellow/Green): ").strip().lower()
+
+if signal == "red":
+    print("Stop! The signal is Red.")
+elif signal == "yellow":
+    print("Get Ready! The signal is Yellow.")
+elif signal == "green":
+    print("Go! The signal is Green.")
+else:
+    print("Invalid input. Please enter Red, Yellow, or Green.")
+
+
+# An employee’s working hours decide Half-Day, Full-Day, Overtime status.
+
+hours = float(input("Enter employee working hours: "))
+
+if hours <= 4:
+    print("Status: Half-Day")
+elif hours <= 8:
+    print("Status: Full-Day")
+else:
+    print("Status: Overtime")
+
+
+
+# Take the number of login attempts as input.
+# ·       If login attempts are 1 or 2, print Normal
+# ·       If login attempts are 3 or 4, print Warning
+# ·   	If login attempts are 5, print Account Blocked
+# ·       For any value greater than 5, also print Account Blocke
+
+
+attempts = int(input("Enter number of login attempts: "))
+
+if attempts == 1 or attempts == 2:
+    print("Status: Normal")
+elif attempts == 3 or attempts == 4:
+    print("Status: Warning")
+elif attempts >= 5:
+    print("Status: Account Blocked")
+else:
+    print("Invalid input. Attempts must be 1 or more.")
+
+
+
+================================================================================================Questions on Nested if–elif====================================================================================
+
+
+
+# 1. Login System
+# Write a Python program that takes a username and password as input.
+#  Assume the correct username is admin and the correct password is admin@123.
+#  The program should first check the username. If the username is correct, then check the password and print whether login is successful, password is incorrect, or username is invalid.
