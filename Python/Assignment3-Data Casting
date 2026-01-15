@@ -1,0 +1,167 @@
+# Create a dictionary that contains 5 key–value pairs.
+
+student_details={'Name': 'Komal',
+                'Age':25,
+                'City': 'Pune',
+                 'College' : 'Savitribai Phule Pune University',
+                'Percentage': 95}
+print('Student Details:', student_details)
+print('Data Type:', type(student_details))
+
+# Create a dictionary with three values, where two keys are the same, and check how many items are present in the dictionary.
+
+student_details={'Name': 'Komal',
+                'Age':25,
+                'Name': 'Pallavi',}
+
+print('Student Details:', student_details)
+print(type(student_details))
+
+
+# Create a set that contains 5 random Aadhaar card numbers.
+
+aadhaar_numbers = {
+    "123456789012",
+    "987654321098",
+    "456789123456",
+    "654321987654",
+    "112233445566"
+}
+
+print("Aadhaar Numbers Set:", aadhaar_numbers)
+print("Data Type:", type(aadhaar_numbers))
+
+
+# Create a set with 10 entries having the same value and print the set.
+
+my_set = {10, 10, 10, 10, 10, 10, 10, 10, 10, 10}
+
+print("Set:", my_set)
+print("Data Type:", type(my_set))
+
+
+# - Sets in Python only store unique values.
+# - Even if you try to add the same value multiple times, it will only keep one copy.
+# - So the set will contain just one element (10).
+
+# Convert the integer 23 into 23.00 and store it in a variable.
+
+num = 23
+
+print('Converted Value:', float(num))
+print(type(num)) #value not stored in variable
+
+num = float(23)
+
+print("Converted Value:", num)
+print("Data Type:", type(num)) # value stored in variable
+
+# Convert the string '50' into 50.00 and print the result only (do not store it in a variable).
+
+abc = '50'
+
+print('Converted Value:', float(abc))
+print(type(num)) #value not stored in variable
+
+
+# Try to convert the string 'programming' into an integer and check whether you get an error or a result.
+
+text = "programming"
+
+# Attempt to convert string into integer
+num = int(text)
+
+print(num)
+
+
+
+# Given the list [11, 33, 4, 11, 44], remove duplicate values using type casting.
+
+numbers = [11, 33, 4, 11, 44] #origial list
+unique_numbers = list(set(numbers)) #Remove duplicates using type casting
+
+
+print("Original List:", numbers)
+print("List after removing duplicates:", unique_numbers)
+
+# - set(numbers) → converts the list into a set, automatically removing duplicates.
+# - list(set(numbers)) → converts the set back into a list.
+# - The order may change because sets are unordered.
+
+
+# Create a tuple and convert it into a list.
+
+
+student_tuple = ("Monali", 21, "Pune", 95) # Create a tuple
+
+
+student_list = list(student_tuple) # Convert tuple into list
+
+print("Tuple:", student_tuple)
+print("Converted List:", student_list)
+print("Data Type of Converted List:", type(student_list))
+
+
+# Take user input and check its data type.
+
+abc=input('Please enter your input:')
+print(abc)
+
+print('Data Type:', type(abc))
+
+# - input() → always takes input as a string (<class 'str'>), no matter what you type.
+# - For example:
+# - If you type 23, it will be stored as "23" (string).
+# - If you type hello, it will be stored as "hello" (string).
+
+
+# Take user input and check the data type.If it is a string, try to convert it into an integer.
+
+num = int(input("Enter an integer: "))
+print("You entered:", num)
+print("Data Type:", type(num))
+
+flt = float(input("Enter a decimal number: "))
+print("You entered:", flt)
+print("Data Type:", type(flt))
+
+
+
+# Create a list with mixed data types and convert it into a set.
+
+mixed_list = [11, "Monali", 23.5, True, "Pune", 11, True]  # Create a list with mixed data types
+
+print("Original List:", mixed_list)
+print("Data Type:", type(mixed_list))
+
+
+mixed_set = set(mixed_list)    # Convert list into a set
+
+print("Converted Set:", mixed_set)
+print("Data Type:", type(mixed_set))
+
+# - mixed_list → contains integers, strings, floats, and booleans.
+# - set(mixed_list) → converts the list into a set, automatically removing duplicates.
+# - Sets are unordered and contain only unique values.
+
+
+# Create a tuple with repeated values and convert it into a set.Print the final output.
+
+
+numbers_tuple = (10, 20, 30, 10, 40, 20, 50, 30)         # Create a tuple with repeated values
+
+print("Original Tuple:", numbers_tuple)
+
+
+numbers_set = set(numbers_tuple)    # Convert tuple into a set
+
+print("Final Set:", numbers_set)
+print("Data Type:", type(numbers_set))
+
+
+# - numbers_tuple → contains repeated values like 10, 20, and 30.
+# - set(numbers_tuple) → converts the tuple into a set, automatically removing duplicates.
+# - Sets only keep unique values and are unordered.
+
+
+
