@@ -1,0 +1,357 @@
+---------------------------------------------------------------Arithmetic Operators-------------------------------------------------
+
+# Create two variables and add them.
+var1 = 45
+var2 = 26
+var3 = var1 + var2
+
+print(var3)
+
+
+# Find average of three students’ marks: 60, 70, 80.
+# Example 1
+marks1 = 60
+marks2 = 70
+marks3 = 80
+
+average = (marks1 + marks2 + marks3)/3 # / returns float
+print('The average of the three students marks is:', average)
+
+# Example 2
+
+Average = (60 + 70 + 80)//3
+print('Average of the three students marks is:', Average) # // returns Integer 
+
+# Example 3
+
+marks = [60,70,80]
+
+AVERAGE = sum(marks)//len(marks) #we can use '/' or '//' , This way, we can easily extend it to more numbers without changing the formula.
+
+print('The AVERAGEof the 3 students mark is:', AVERAGE)
+
+# Example 4 :Taking the input from the users
+
+# Program to calculate average of 3 numbers entered by user
+
+
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+num3 = float(input("Enter the third number: "))
+
+# Calculating average
+average = (num1 + num2 + num3) / 3
+
+# Displaying result
+print("The average of the three numbers is:", average)
+
+
+
+# Convert given minutes (take user input) into seconds.
+
+minutes = int(input("Enter time in minutes: ")) 
+
+# input() lets the user type the number of minutes. int() converts the input (text) into an integer.
+
+seconds = minutes * 60  #- Since 1 minute = 60 seconds, we multiply by 60.
+
+
+print("Time in seconds is:", seconds)
+
+
+# Take monthly salary as input and calculate yearly salary.
+
+monthly_salary = int(input('Enter your monthly salary:'))
+
+yearly_salary = monthly_salary * 12
+
+print('Your yearly salary is:', yearly_salary)
+
+
+# Calculate final salary after adding bonus
+salary = 40000
+bonus = 5000
+
+Fsalary = salary + bonus
+
+print('Final salary is:', Fsalary)
+
+
+# Subtract withdrawal amount (user input) from bank balance
+ 
+bank_balance = 10000
+
+withdrawal_amount = int(input('Enter the amount you want to withdraw:'))
+
+balance = bank_balance - withdrawal_amount
+
+print('Your remaining balance is:',balance)
+
+
+---------------------------------------------------------------------------------Comparison Operators--------------------------------------------------------------------------------------
+
+
+# Check if two students have the same marks.
+
+# Taking input from the user
+marks_student1 = int(input("Enter marks of Student 1: "))
+marks_student2 = int(input("Enter marks of Student 2: "))
+
+# Checking if marks are equal
+if marks_student1 == marks_student2:
+    print("Both students have the same marks.")
+else:
+    print("The students have different marks.")
+
+
+# Using a boolean trick
+
+
+marks1 = int(input("Enter marks of Student 1: "))
+marks2 = int(input("Enter marks of Student 2: "))
+
+print(["Different marks", "Same marks"][marks1 == marks2])
+
+
+# Using a dictionary lookup
+
+marks1 = int(input("Enter marks of Student 1: "))
+marks2 = int(input("Enter marks of Student 2: "))
+
+result = {True: "Same marks", False: "Different marks"}[marks1 == marks2]
+print(result)
+
+
+# Using a set
+
+
+marks1 = int(input("Enter marks of Student 1: "))
+marks2 = int(input("Enter marks of Student 2: "))
+
+print("Same marks" if len({marks1, marks2}) == 1 else "Different marks")
+
+
+# Verify if entered year is greater than 2000
+
+# year = int(input('Enter your year:'))
+
+# if year > 2000:
+#     print("entered year is greater than 2000")
+# else:
+#     print("entered year is Smaller than 2000")
+
+
+year = int(input("Enter your year: "))
+
+if year > 2000:
+    print("Entered year is greater than 2000")
+elif year == 2000:
+    print("Entered year is equal to 2000")
+else:
+    print("Entered year is smaller than 2000")
+
+
+# Compare two numbers and print result using >
+
+number1 = int(input('Enter your first number:'))
+number2 = int(input('Enter your second number:'))
+
+if number1 > number2:
+    print('First number is greater than second number')
+
+elif number1 == number2:
+    print('First number is equals to second number')
+
+else:
+    print('Second number is greater than first number')
+
+
+# Check if marks are less than passing marks.
+
+marks = int(input('Enter your marks:'))
+
+if marks>=35:
+    print('congrats pass', marks)
+
+else:
+    print('Sorry fail', marks)
+
+# Create two varible salary and Compare two salaries using >=
+
+salary1 = int(input('Enter salary1'))
+salary2 = int(input('Enter salary2'))
+
+# Compare using >= and print result
+if salary1 >= salary2:
+    print("Salary1 is greater than Salary2 ")
+else:
+    print("Salary1 is less than Salary2 ")
+
+---------------------------------------------------------------------------------------Membership Operators---------------------------------------------------------------------------------
+
+
+# Check if student name "komal" exists in ['komal','hina','rahul','kia'].
+
+name = input('Enter your number:')
+
+student = ['komal','hina','rahul','kia']
+if name in student:
+    print('Name is present')
+
+else:
+    print('Name is absent')
+
+# Check if @ is present in "studentgmail.com"
+
+email = "studentgmail.com"
+
+if "@" in email:
+    print("Valid: '@' is present")
+else:
+    print("Invalid: '@' is missing")
+
+
+
+# Check if "python" exists in subject list [‘PYTHON’,’JAVA’,’C++’]
+
+subjects = ['PYTHON', 'JAVA', 'C++']
+
+
+if "python" in subjects: # Direct check (case-sensitive)
+    print("Found")
+else:
+    print("Not Found")
+
+
+# Check if number 5 is in [1,2,3,4,5]
+
+numbers = [1, 2, 3, 4, 5]
+
+if 5 in numbers:
+    print("5 is present in the list")
+else:
+    print("5 is not present in the list")
+
+# Check if  space present in string ‘python programming’
+
+text = "python programming"
+
+if " " in text:
+    print("Space is present in the string")
+else:
+    print("No space in the string")
+
+
+--------------------------------------------------------------------------------------Identity Operators------------------------------------------------------------------------------------------
+
+
+
+ # Check if two variables refer to the same object using is
+# Example 1: Same object
+a = [1, 2, 3]
+b = a   # b refers to the same list as a
+
+if a is b:
+    print("a and b refer to the same object")
+else:
+    print("a and b do not refer to the same object")
+
+# Example 2: Different objects with same value
+x = [1, 2, 3]
+y = [1, 2, 3]   # y is a new list with same values
+
+if x is y:
+    print("x and y refer to the same object")
+else:
+    print("x and y do not refer to the same object")
+
+
+# Check if user input variable is None
+
+user_input = None   # simulate user input
+
+if user_input is None:
+    print("The variable is None")
+else:
+    print("The variable is not None")
+
+
+
+# not None
+user_input = None
+if user_input is not None:
+    print("The variable has a value")
+else:
+    print('variable is none')
+
+
+# Assign one list to another variable and check is
+
+list1 = [10, 20, 30]
+list2 = list1   # list2 now refers to the same object as list1
+
+
+if list1 is list2:
+    print("list1 and list2 refer to the same object")
+else:
+    print("list1 and list2 do not refer to the same object")
+
+
+# Compare two empty lists using is
+
+list1 = []
+list2 = []
+
+if list1 is list2:
+    print("list1 and list2 refer to the same object")
+else:
+    print("list1 and list2 do not refer to the same object")
+
+l1 = []
+l2 = l1   # both point to the same object
+
+print(l1 is l2)  # True
+
+
+-------------------------------------------------------------------------------------------Logical Operators----------------------------------------------------------------------------------------------------
+
+
+
+# Store two numbers. Print (num1 > 10) and (num2 > 10)
+
+num1 = 15
+num2 = 8
+
+# Print comparisons
+print("num1 > 10:", num1 > 10)
+print("num2 > 10:", num2 > 10)
+
+
+# Store marks and attendance. Print (marks >= 40) and (attendance >= 75)
+
+marks = 55
+attendance = 80
+
+# Print comparisons
+print("marks >= 40:", marks >= 40)
+print("attendance >= 75:", attendance >= 75)
+
+
+# Store two numbers. Print (num1 > 100) or (num2 > 100)
+
+num1 = 120
+num2 = 80
+
+# Print comparison using OR
+print((num1 > 100) or (num2 > 100))
+
+
+
+# Store internet and wifi status. Print (internet == True) or (wifi == True)
+
+internet = True
+wifi = False
+
+# Print comparison using OR
+print((internet == True) or (wifi == True))
+
