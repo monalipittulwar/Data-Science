@@ -1,0 +1,89 @@
+# Create a variable to store your age and find its data type
+
+age=25
+print(age, type(age))
+
+# Create two variables in one line to store age and marks, then print both.
+
+# age=25 marks = 90 ( shows syntax error)
+age, marks = 21, 95
+
+print('Age=', age, 'Marks=', marks)
+
+# Create a variable to store your full name and find its data type.
+Full_Name = 'Monali Pittulwar'
+
+print('Full Name:', Full_Name, 'Data Type:', type(Full_Name))
+
+# Pass two variables inside type() and check whether you get an error or output.
+
+ A = 54
+ B = 30
+ print(type(A,B,))
+
+# Create two variables: one with value 10 and another with value '10'. Check whether both have the same data type or different.
+
+
+Var1 = 10
+Var2 = '10'
+
+print(type(Var1))
+print(type(Var2))
+
+# Create a list to store student details: name, age, city, and marks.
+
+Student_Details = ['Monali Pittulwar', 25, 'Pune', 95]
+print(Student_Details)
+print('------Student Details-----')
+print('Name:',Student_Details[0])
+print('Age:',Student_Details[1])
+print('City:',Student_Details[2])
+print('Marks:',Student_Details[3])
+
+# Create a tuple to store the birth year of students.
+birth_years = (2004, 2003, 2005, 2002)
+
+print("Birth Years of Students:", birth_years)
+print("Data Type:", type(birth_years))
+
+
+# Create a variable to store whether a student is eligible for scholarship (True/False).
+
+ eligible_for_scholarship = True
+ print('Is the student eligible for Scholarship:', eligible_for_scholarship)
+ print(type(eligible_for_scholarship))
+
+eligible_for_scholarship = False
+print('Is the student eligible for Scholarship:', eligible_for_scholarship)
+print(type(eligible_for_scholarship))
+
+
+# Create a variable to store the scholarship amount and find its data type.
+
+scholarship_amount = 15000.50
+
+print("Scholarship Amount:", scholarship_amount)
+print("Data Type:", type(scholarship_amount))
+
+
+# Create three variables to store name, city, and college name in one line.
+name, city, college_name = 'Monali' , 'Pune', 'Pune University'
+
+print("Name:", name)
+print("City:", city)
+print("College:", college_name)
+
+
+# Create a list to store marks of 5 subjects.
+marks = [65,45,66,54,66]
+print('Marks of 5 Subjects:', marks)
+
+# Find the data type of the list created above.
+
+print('Data type:', type(marks))
+
+# Create a tuple to store days of the week.
+days_of_week = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+
+print("Days of the Week:", days_of_week)
+print("Data Type:", type(days_of_week))
