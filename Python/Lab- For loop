@@ -1,0 +1,22 @@
+Lab – For Loop 
+
+1.	Given a list [4, 8, 2, 10, 6], find the maximum number using a for loop.
+2.	Take input from the user and find the factorial of the number using a for loop.
+3.	Given a list ['apple', 'banana', 'cherry', 'date', 'fig'], print each element along with its index using a for loop.
+4.	Take a string input from the user and count the number of uppercase letters using a for loop. (Use char.isupper()) 😊
+5.	Given a list of integers [17, 25, 39, 42, 58, 71, 86, 93], find the sum of all the even numbers using a for loop.
+6.	Given a list [3, 6, 9, 12, 15], calculate the product of all the elements using a for loop.
+7.	Given a list [2, 3, 5, 7, 11, 13, 17, 19], find the index of the first occurrence of the number 7 using a for loop.
+8.	Take a string input from the user and reverse it using a for loop.
+9.	Given a list [10, 20, 30, 40, 50], print each element multiplied by 2 using a for loop.
+10.	Given a list of words ['Python', 'Java', 'C++', 'JavaScript', 'Ruby'], find the longest word using a for loop.
+11.	Take a string input from the user and count the number of vowels using a for loop. (Vowels: a, e, i, o, u)
+12.	Given a list of integers [4, 9, 16, 25, 36], print the square root of each number using a for loop.
+13.	Given a list [1, 3, 5, 7, 9, 11], check if a user-inputted number is present in the list using a for loop.
+14.	Given a list [100, 200, 150, 50, 75], find the minimum number using a for loop.
+15.	Take a sentence as input from the user and count the number of words using a for loop. (Words are separated by spaces.)
+16.	Given a list [20, 40, 60, 80, 100], create a new list with elements divided by 10 using a for loop.
+17.	Given a list ['red', 'green', 'blue', 'yellow', 'purple'], print only the words that have more than 4 letters using a for loop.
+18.	Take a number as input from the user and generate a list of its multiplication table up to 10 using a for loop.
+19.	Given a dictionary {'A': 10, 'B': 20, 'C': 30, 'D': 40}, print all key-value pairs using a for loop.
+20.	Given a list of mixed values [1, 'hello', 3.5, 'world', 10, 'Python'], print only the integer values using a for loop.
