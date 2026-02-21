@@ -151,3 +151,130 @@ Output: 12
 20 Write a program to find the maximum value in the given list.
 Input: [99, 55, 73, 21, 64]
 Output: 99
+
+
+
+Practical List Questions with Sample Input
+
+Create a list of 5 integers and print it.
+Sample Input: [1, 2, 3, 4, 5]
+
+Create an empty list and add three elements to it.
+Sample Input: 10, 20, 30
+
+Find the length of a list.
+Sample Input: [5, 10, 15, 20]
+
+Print the first and last element of a list.
+Sample Input: [2, 4, 6, 8, 10]
+
+Add an element 50 at the end of the list.
+Sample Input: [10, 20, 30]
+
+Insert the value 100 at index position 2.
+Sample Input: [5, 15, 25, 35]
+
+Remove a specific element from the list.
+Sample Input: List → [10, 20, 30, 40], Element → 20
+
+Remove the last element from the list.
+Sample Input: [1, 2, 3, 4]
+
+Print all elements of a list using a loop.
+Sample Input: ["apple", "banana", "mango"]
+
+Check whether an element exists in the list.
+Sample Input: List → [10, 20, 30, 40], Element → 30
+
+Replace the second element of a list with 99.
+Sample Input: [5, 10, 15, 20]
+
+Find the sum of all elements in a list.
+Sample Input: [1, 2, 3, 4, 5]
+
+Find the maximum element in a list.
+Sample Input: [45, 12, 78, 34]
+
+Find the minimum element in a list.
+Sample Input: [9, 3, 15, 6]
+
+Count how many times an element appears in a list.
+Sample Input: List → [1, 2, 2, 3, 2, 4], Element → 2
+
+Reverse a list.
+Sample Input: [10, 20, 30, 40]
+
+Sort a list in ascending order.
+Sample Input: [5, 1, 4, 2, 3]
+
+Copy one list into another list.
+Sample Input: [100, 200, 300]
+
+Remove all elements from a list.
+Sample Input: [1, 2, 3, 4, 5]
+
+Print elements at even index positions.
+Sample Input: [10, 20, 30, 40, 50, 60]
+
+
+Practical List Questions with Sample Input
+
+Create a list of 5 integers and print it.
+Sample Input: [1, 2, 3, 4, 5]
+
+Create an empty list and add three elements to it.
+Sample Input: 10, 20, 30
+
+Find the length of a list.
+Sample Input: [5, 10, 15, 20]
+
+Print the first and last element of a list.
+Sample Input: [2, 4, 6, 8, 10]
+
+Add an element 50 at the end of the list.
+Sample Input: [10, 20, 30]
+
+Insert the value 100 at index position 2.
+Sample Input: [5, 15, 25, 35]
+
+Remove a specific element from the list.
+Sample Input: List → [10, 20, 30, 40], Element → 20
+
+Remove the last element from the list.
+Sample Input: [1, 2, 3, 4]
+
+Print all elements of a list using a loop.
+Sample Input: ["apple", "banana", "mango"]
+
+Check whether an element exists in the list.
+Sample Input: List → [10, 20, 30, 40], Element → 30
+
+Replace the second element of a list with 99.
+Sample Input: [5, 10, 15, 20]
+
+Find the sum of all elements in a list.
+Sample Input: [1, 2, 3, 4, 5]
+
+Find the maximum element in a list.
+Sample Input: [45, 12, 78, 34]
+
+Find the minimum element in a list.
+Sample Input: [9, 3, 15, 6]
+
+Count how many times an element appears in a list.
+Sample Input: List → [1, 2, 2, 3, 2, 4], Element → 2
+
+Reverse a list.
+Sample Input: [10, 20, 30, 40]
+
+Sort a list in ascending order.
+Sample Input: [5, 1, 4, 2, 3]
+
+Copy one list into another list.
+Sample Input: [100, 200, 300]
+
+Remove all elements from a list.
+Sample Input: [1, 2, 3, 4, 5]
+
+Print elements at even index positions.
+Sample Input: [10, 20, 30, 40, 50, 60]
