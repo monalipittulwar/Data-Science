@@ -1,0 +1,141 @@
+conditional statements in Python:
+
+Simple if statements:
+Question 1: Write a Python program that checks if a given number is even. If it is, print "Even number".
+Question 2: Write a Python program that checks if a given string contains the letter 'a'. If it does, print "String contains 'a'".
+Question 3: Write a Python program that checks if a given year is a leap year. If it is, print "Leap year".
+Question 4: Write a Python program that checks if a given number is positive. If it is, print "Positive number".
+Question 5: Write a Python program that checks if a given character is a vowel. If it is, print "Vowel".
+Question 6: Write a Python program that checks if a given number is greater than 100. If it is, print "Greater than 100".
+Question 7: Write a Python program that checks if a given string is empty. If it is, print "Empty string".
+Question 8: Write a Python program that checks if a given number is divisible by both 5 and 7. If it is, print "Divisible by 5 and 7".
+Question 9: Write a Python program that checks if a given list contains any negative numbers. If it does, print "List contains negative numbers".
+Question 10: Write a Python program that checks if a given word is a palindrome. If it is, print "Palindrome".
+if-else statements:
+Question 1: Write a Python program that checks if a given number is positive. If it is, print "Positive number"; otherwise, print "Negative number".
+Question 2: Write a Python program that checks if a given string is empty. If it is, print "Empty string"; otherwise, print "Non-empty string".
+Question 3: Write a Python program that checks if a given number is even. If it is, print "Even number"; otherwise, print "Odd number".
+Question 4: Write a Python program that checks if a given character is a vowel. If it is, print "Vowel"; otherwise, print "Consonant".
+Question 5: Write a Python program that checks if a given year is a leap year. If it is, print "Leap year"; otherwise, print "Not a leap year".
+Question 6: Write a Python program that checks if a given number is divisible by 3. If it is, print "Divisible by 3"; otherwise, print "Not divisible by 3".
+Question 7: Write a Python program that checks if a given string is a palindrome. If it is, print "Palindrome"; otherwise, print "Not a palindrome".
+Question 8: Write a Python program that checks if a given list is empty. If it is, print "Empty list"; otherwise, print "Non-empty list".
+Question 9: Write a Python program that checks if a given number is greater than, less than, or equal to 50. Print the corresponding message.
+Question 10: Write a Python program that checks if a given character is an uppercase letter. If it is, print "Uppercase"; otherwise, print "Lowercase".
+if-elif-else statements:
+Question 1: Write a Python program that checks if a given number is positive, negative, or zero. Print the corresponding message.
+Question 2: Write a Python program that compares two numbers and prints the larger number.
+Question 3: Write a Python program that determines whether a given temperature is hot, warm, or cold. Print the corresponding message.
+Question 4: Write a Python program that checks if a given year is a leap year, a century year, or neither. Print the corresponding message.
+Question 5: Write a Python program that categorizes a given character into uppercase letter, lowercase letter, digit, or special character. Print the corresponding message.
+Question 6: Write a Python program that calculates the discount percentage based on the purchase amount. Print the corresponding discount percentage.
+Question 7: Write a Python program that checks if a given number is divisible by 2, 3, 5, or none of them. Print the corresponding message.
+Question 8: Write a Python program that determines the grade based on the percentage obtained. Print the corresponding grade.
+Question 9: Write a Python program that checks if a given number is within a specific range. Print the corresponding message.
+Question 10: Write a Python program that checks if a given string is an English word, a number, or a combination of both. Print the corresponding message.
+
+
+
+
+Nested-if-else statements:
+
+Question 1: Checking Number Properties
+Write a Python program that takes an integer as input and checks the following conditions using nested if:
+•	If the number is positive, check if it is even or odd.
+•	If it is even, check if it is greater than 50.
+•	If it is odd, check if it is a multiple of 5.
+•	If the number is negative, print "Number is negative."
+ 
+
+
+
+
+
+
+
+Question 2: Student Grade Classification
+Write a Python program that takes marks as input and classifies students based on the following criteria:
+•	If the marks are 50 or above, print "You have passed."
+o	If the marks are 75 or above, print "You got distinction!"
+o	Else, print "You passed, but no distinction."
+•	If marks are below 50, print "You have failed."
+ 
+Question 3: Checking Voter Eligibility
+Write a Python program that takes the age of a person as input and checks if they are eligible for different activities:
+•	If the age is 18 or above, print "Eligible to vote."
+o	If the age is 21 or above, print "Eligible to drink alcohol."
+o	Else, print "Not eligible to drink alcohol."
+•	If the age is below 18, print "Not eligible to vote."
+o	If the age is 16 or above, print "Can apply for a learner's driving permit."
+ 
+Question 4: Employee Bonus Calculation
+Write a Python program that takes an employee's salary and years of experience as input. The program should:
+•	If the experience is 5 years or more, check:
+o	If the salary is more than 50,000, give a bonus of 10%.
+o	Else, give a bonus of 15%.
+•	If the experience is less than 5 years, print "No bonus."
+________________________________________
+Question 5: Triangle Type Checker
+Write a Python program that takes three sides of a triangle as input and determines:
+•	If all three sides are equal, print "Equilateral Triangle."
+•	If any two sides are equal, print "Isosceles Triangle."
+•	If all three sides are different, print "Scalene Triangle."
+•	If the sum of any two sides is not greater than the third side, print "Not a valid triangle."
+________________________________________
+Question 6: ATM Cash Withdrawal
+Write a Python program that asks the user for the amount to withdraw. The program should check:
+•	If the amount is a multiple of 100, proceed further.
+o	If the amount is greater than 5000, print "Daily limit exceeded."
+o	Else, print "Transaction successful."
+•	If the amount is not a multiple of 100, print "Invalid amount. Enter multiples of 100."
+________________________________________
+Question 7: Vehicle Speed Checker
+Write a Python program that takes the speed of a vehicle as input and prints the following:
+•	If speed is below 60 km/h, print "Safe speed."
+•	If speed is between 60 and 100 km/h, print "Drive carefully."
+•	If speed is above 100 km/h, check:
+o	If speed is above 120 km/h, print "Overspeeding! Heavy fine imposed."
+o	Else, print "Warning! Reduce your speed."
+________________________________________
+Question 8: Checking Electricity Bill Slabs
+Write a Python program that takes the number of electricity units consumed and calculates the bill:
+•	If units are less than 100, charge ₹2 per unit.
+•	If units are between 100 and 300, charge ₹5 per unit.
+o	If units are more than 200, apply a 10% surcharge.
+•	If units are above 300, charge ₹8 per unit with a 20% surcharge.
+________________________________________
+Question 9: Mobile Data Plan Recommendation
+Write a Python program that asks the user for their monthly internet usage (in GB) and suggests a plan:
+•	If usage is less than 2GB, suggest "Basic Plan - ₹199/month."
+•	If usage is between 2GB and 10GB, suggest "Standard Plan - ₹499/month."
+o	If usage is above 7GB, suggest "Add ₹100 for extra data."
+•	If usage is more than 10GB, suggest "Premium Plan - ₹999/month."
+________________________________________
+Question 10: Admission Eligibility for a Course
+Write a Python program that takes a student's marks in Mathematics and Science as input and checks:
+•	If both subjects have marks above 70, print "Eligible for admission."
+o	If both are above 90, print "Eligible for scholarship."
+•	If one subject is below 70, print "Eligible for reconsideration."
+•	If both are below 70, print "Not eligible for admission."
+________________________________________
+Question 11: Movie Ticket Pricing Based on Age and Time
+Write a Python program that takes the age of a person and the time of the movie (morning/evening) and decides the ticket price:
+•	If age is below 12, charge ₹100.
+o	If it's an evening show, charge ₹150.
+•	If age is 12 or above, charge ₹200.
+o	If it's an evening show, charge ₹300.
+________________________________________
+Question 12: Weather-based Clothing Suggestion
+Write a Python program that takes the temperature (in °C) as input and suggests clothing:
+•	If temperature is below 10°C, suggest "Wear a heavy jacket and gloves."
+•	If temperature is between 10°C and 20°C, suggest "Wear a sweater and jeans."
+o	If it's also raining, suggest "Carry an umbrella."
+•	If temperature is above 20°C, suggest "Wear light clothes."
+________________________________________
+Question 13: Password Strength Checker
+Write a Python program that takes a password as input and checks its strength:
+•	If the length is less than 6 characters, print "Weak password."
+•	If the length is 6 or more, check:
+o	If it contains numbers and special characters, print "Strong password."
+o	Else, print "Moderate password, add special characters."
+
