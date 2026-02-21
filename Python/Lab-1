@@ -1,0 +1,24 @@
+Lab – 1 Operators
+1.	Write a Python program to take two numbers as input from the user and display their sum.
+2.	Calculate and print the midpoint of two numbers entered by the user.
+3.	Write a Python program to calculate the area of a triangle using the formula: area = 0.5 * base * height.
+4.	Take three numbers as input from the user and display their product.
+5.	Take a number as input and display its square and cube.
+6.	Take two numbers as input and display their quotient and remainder.
+7.	Take three numbers as input and display their average.
+8.	Write a Python program to calculate the area of a rectangle using the formula: area = length * width.
+9.	Take five numbers as input representing marks obtained and total marks. 
+Display the percentage.
+10.	Write a Python program to swap two numbers entered by the user without using a third variable.
+11.	Take a number as input and check whether it is even or odd.
+12.	Write a Python program to convert temperature from Celsius to Fahrenheit using the formula: F = (C × 9/5) + 32.
+13.	Write a Python program to convert temperature from Fahrenheit to Celsius using the formula: C = (F - 32) × 5/9.
+14.	Take two numbers as input and find their greatest common divisor (GCD).
+15.	Write a Python program to calculate the simple interest using the formula: SI = (P × R × T) / 100, where P is the principal amount, R is the rate of interest, and T is the time in years.
+16.	Write a Python program to check whether a number is positive, negative, or zero.
+17.	Write a Python program to find the largest among three numbers entered by the user.
+18.	Take a number as input and check whether it is a multiple of 5.
+19.	Write a Python program to calculate the perimeter of a circle using the formula: perimeter = 2 * π * radius.
+20.	Write a Python program to check whether a number is divisible by both 3 and 5.
+
+Note - Questions 14 and 19 require the math module, so they are optional.
